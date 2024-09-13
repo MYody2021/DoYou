@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-.center {
+.container {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -8,9 +8,13 @@
     width: 50%;
 }
 
+p {
+    font-family: "Pixelify Sans";
+}
+
 button {
     font-family: "Pixelify Sans";
-    font-size: 35px;
+    font-size: 10px;
     font-weight: bold;
     padding: 10px 20px;
     margin: 5px;
@@ -25,4 +29,25 @@ button {
 
 button:hover {
     background-color: #ffffff;
+}
+
+img.hati {
+    width: 100%;
+}
+
+img.moving-img-bottom {
+    position: absolute;
+    bottom: 15;
+    left: 50%;
+    animation: jalankiri 5s linear infinite;
+}
+
+@keyframes jalankiri {
+    from {
+        transform: translateX(800%);
+    }
+
+    to {
+        transform: translateX(-800%);
+    }
 }
