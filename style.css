@@ -56,10 +56,8 @@ img {
   left: 5px;
 }
 
-@media (min-width: 768px) {
-  .button {
-    padding: 0.25em 0.75em;
-  }
+button:hover {
+    background-color: #ffffff;
 }
 
 @media (max-width: 768px) {
