@@ -8,6 +8,26 @@
     transform: translate(-50%, -50%);
 }
 
+.moving-img-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: auto;
+    animation: jalankiri 7s linear infinite;
+}
+
+@keyframes jalankiri {
+    from {
+        transform: translateX(1500%);
+    }
+
+    to {
+        transform: translateX(-1500%);
+    }
+}
+
 p {
     font-family: "Pixelify Sans";
     font-size: 30px;
@@ -59,24 +79,6 @@ img.hati {
     white-space: nowrap; /* Agar teks tidak terputus di baris baru */
 }
 
-img.moving-img-bottom {
-    width: 20%;
-    position: absolute;
-    bottom: 15;
-    left: 50%;
-    animation: jalankiri 7s linear infinite;
-}
-
-@keyframes jalankiri {
-    from {
-        transform: translateX(1500%);
-    }
-
-    to {
-        transform: translateX(-1500%);
-    }
-}
-
 @media (max-width: 768px) {
     p {
         font-size: 36px; 
@@ -90,11 +92,13 @@ img.moving-img-bottom {
     }
 
     img.moving-img-bottom {
-        width: 20%;
-        position: absolute;
-        bottom: 37;
+        position: fixed;
+        bottom: 0;
         left: 50%;
-        animation: jalankiri 4s linear infinite;
+        transform: translateX(-50%);
+        width: 30px; /* Ubah sesuai ukuran gambar yang diinginkan */
+        height: auto;
+        animation: jalankiri 5s linear infinite;
     }
     
     @keyframes jalankiri {
@@ -135,11 +139,13 @@ img.moving-img-bottom {
     }
 
     img.moving-img-bottom {
-        width: 20%;
-        position: absolute;
-        bottom: 26;
+        position: fixed;
+        bottom: 0;
         left: 50%;
-        animation: jalankiri 4s linear infinite;
+        transform: translateX(-50%);
+        width: 30px; /* Ubah sesuai ukuran gambar yang diinginkan */
+        height: auto;
+        animation: jalankiri 5s linear infinite;
     }
     
     @keyframes jalankiri {
