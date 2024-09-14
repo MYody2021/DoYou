@@ -22,7 +22,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: auto;
-    animation: jalankiri 7s linear infinite;
+    animation: jalankiri 8s linear infinite;
 }
 
 @keyframes jalankiri {
