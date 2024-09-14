@@ -15,6 +15,26 @@ body {
     text-align: center;
 }
 
+.moving-img-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: auto;
+    animation: jalankiri 7s linear infinite;
+}
+
+@keyframes jalankiri {
+    from {
+        transform: translateX(1500%);
+    }
+
+    to {
+        transform: translateX(-1500%);
+    }
+}
+
 a {
     font-family: "Pixelify Sans";
     font-weight: bold;
@@ -77,6 +97,26 @@ button:hover {
         padding: 8px 16px; 
         margin: 20px 10px; 
     }
+
+    img.moving-img-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px; /* Ubah sesuai ukuran gambar yang diinginkan */
+        height: auto;
+        animation: jalankiri 5s linear infinite;
+    }
+    
+    @keyframes jalankiri {
+        from {
+            transform: translateX(800%);
+        }
+    
+        to {
+            transform: translateX(-800%);
+        }
+    }
 }
 
 @media (max-width: 480px) {
@@ -92,6 +132,26 @@ button:hover {
         font-size: 18px; 
         padding: 6px 12px; 
         margin: 15px 5px; 
+    }
+
+    img.moving-img-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px; /* Ubah sesuai ukuran gambar yang diinginkan */
+        height: auto;
+        animation: jalankiri 5s linear infinite;
+    }
+    
+    @keyframes jalankiri {
+        from {
+            transform: translateX(750%);
+        }
+    
+        to {
+            transform: translateX(-750%);
+        }
     }
 }
 
