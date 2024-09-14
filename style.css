@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 body {
-    font-family: "Pixelify Sans";
+    font-family: 'Press Start 2P', cursive;
     font-weight: bold;
     margin: 0;
     display: flex;
@@ -11,16 +12,17 @@ body {
 }
 
 .container {
-    text-align: center; 
+    text-align: center;
 }
 
 a {
+    font-family: "Pixelify Sans";
     font-weight: bold;
     text-decoration: none;
 }
 
 p {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 img {
@@ -91,4 +93,28 @@ button:hover {
         padding: 6px 12px; 
         margin: 15px 5px; 
     }
+}
+
+div.clickEffect{
+	position:fixed;
+	box-sizing:border-box;
+	border-style:solid;
+	border-color:#000000;
+	border-radius:50%;
+	animation:clickEffect 0.4s ease-out;
+	z-index:99999;
+}
+@keyframes clickEffect{
+	0%{
+		opacity:1;
+		width:0.5em; height:0.5em;
+		margin:-0.25em;
+		border-width:0.5rem;
+	}
+	100%{
+		opacity:0.2;
+		width:15em; height:15em;
+		margin:-7.5em;
+		border-width:0.03rem;
+	}
 }
