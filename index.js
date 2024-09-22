@@ -19,7 +19,8 @@ const hoverTexts = [
     "EVERYWHERE!",
     "EVERYDAY!",
     "EVERYTIME!",
-    "Muacchhh..."
+    "Muacchhh...",
+    "And F*ck You!"
 ];
 
 // Indeks untuk melacak kalimat yang sedang ditampilkan
