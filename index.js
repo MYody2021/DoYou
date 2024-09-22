@@ -20,7 +20,9 @@ const hoverTexts = [
     "EVERYDAY!",
     "EVERYTIME!",
     "Muacchhh...",
-    "And F*ck You!"
+    "And F*ck You!",
+    "For Making Me",
+    "Overthinking"
 ];
 
 // Indeks untuk melacak kalimat yang sedang ditampilkan
