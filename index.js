@@ -19,10 +19,10 @@ const hoverTexts = [
     "EVERYWHERE!",
     "EVERYDAY!",
     "EVERYTIME!",
-    "halo ges!,
+    "halo ges!",
     "dengan siapa dimana?",
-    "saya Jojot di rumah",
-    "lagi GABUT"
+    "ini jojot lagi gabut",
+    "ya ges ya"
 ];
 
 // Indeks untuk melacak kalimat yang sedang ditampilkan
