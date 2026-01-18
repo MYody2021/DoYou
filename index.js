@@ -19,10 +19,10 @@ const hoverTexts = [
     "EVERYWHERE!",
     "EVERYDAY!",
     "EVERYTIME!",
-    "Halo ges!,
-    "Dengan siapa dimana?",
-    "Saya Jojot di rumah",
-    "Lagi GABUT"
+    "halo ges!,
+    "dengan siapa dimana?",
+    "saya Jojot di rumah",
+    "lagi GABUT"
 ];
 
 // Indeks untuk melacak kalimat yang sedang ditampilkan
@@ -41,4 +41,5 @@ document.querySelector('.hati').addEventListener('click', function() {
     // Pastikan teks selalu terlihat
     hoverText.style.display = 'block';
 });
+
 
