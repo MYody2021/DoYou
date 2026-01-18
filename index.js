@@ -19,10 +19,10 @@ const hoverTexts = [
     "EVERYWHERE!",
     "EVERYDAY!",
     "EVERYTIME!",
-    "Muacchhh...",
-    "And F*ck You!",
-    "For Making Me",
-    "Overthinking"
+    "Halo ges!,
+    "Dengan siapa dimana?",
+    "Saya Jojot di rumah",
+    "Lagi GABUT"
 ];
 
 // Indeks untuk melacak kalimat yang sedang ditampilkan
@@ -41,3 +41,4 @@ document.querySelector('.hati').addEventListener('click', function() {
     // Pastikan teks selalu terlihat
     hoverText.style.display = 'block';
 });
+
