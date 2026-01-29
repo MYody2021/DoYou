@@ -11,17 +11,17 @@ document.addEventListener('click',clickEffect);
 const hoverTexts = [
     "I LOVE YOU!",
     "YOU'RE AMAZING!",
-    "I MISS YOU SO MUCH!",
-    "YOU MAKE ME SMILE!",
-    "YOU'RE MY FAVORITE!",
-    "NEVER SURRENDER!",
-    "I WILL SUPPORT YOU!",
-    "EVERYWHERE!",
-    "EVERYDAY!",
-    "EVERYTIME!",
+    "kendi",
+    "smugel",
+    "hacibimot",
+    "gorlock",
+    "the",
+    "destroyer",
+    "mber",
+    "wazzap",
     "halo ges!",
     "dengan siapa dimana?",
-    "ini jojot lagi gabut",
+    "lagi gabut",
     "ya ges ya"
 ];
 
@@ -41,5 +41,6 @@ document.querySelector('.hati').addEventListener('click', function() {
     // Pastikan teks selalu terlihat
     hoverText.style.display = 'block';
 });
+
 
 
