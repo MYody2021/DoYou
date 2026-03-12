@@ -13,7 +13,7 @@ const hoverTexts = [
     "YOU'RE AMAZING!",
     "kendi",
     "smugel",
-    "hacibimot",
+    "wle",
     "gorlock",
     "the",
     "destroyer",
@@ -41,6 +41,7 @@ document.querySelector('.hati').addEventListener('click', function() {
     // Pastikan teks selalu terlihat
     hoverText.style.display = 'block';
 });
+
 
 
 
