@@ -58,6 +58,8 @@ img.hati {
     cursor: pointer; 
     outline: none;
     border: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .image-container {
@@ -89,6 +91,8 @@ img.hati {
         cursor: pointer; 
         outline: none;
         border: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
     }
 
     img.moving-img-bottom {
@@ -136,6 +140,8 @@ img.hati {
         cursor: pointer; 
         outline: none;
         border: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
     }
 
     img.moving-img-bottom {
